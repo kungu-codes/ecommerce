@@ -49,7 +49,7 @@ p {
 }
 
 body {
-  width: 100%;
+  width:100%;
 }
 
 /* Header start */
@@ -103,7 +103,7 @@ body {
 
 /* Homepage  */
 #hero {
-  background-image: url(./images/hero1.jpg);
+  /* background-image: url(./images/hero1.jpg); */
   height: 90vh;
   width: 100%;
   background-position: top 25% right 0%;
@@ -129,4 +129,39 @@ body {
   font-size: 15px;
 
 
+}
+
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  
+
+}
+#feature .fe-box{
+  width: 100px; 
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+#feature .fe-box:hover{
+  box-shadow: 10px 10px 54px rgba(24, 209, 18, 0.1);
+
+}
+#feature .fe-box h6{
+  padding: 9px 8px 6px 8px ;
+  border-radius: 5px;
+  color: #3ab2bb;
+  display: inline-block;
+  background-color: #fddde4;
+}
+
+#feature .fe-box img{
+  width: 100%;
+  margin-bottom: 10px;
 }
